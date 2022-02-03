@@ -1190,7 +1190,7 @@ def httpcall(url):
 	except urllib2.HTTPError, e:
 			#print e.code
 			set_flag(1)
-			print 'SALDİRİ BASARILI ! İNSTA TAKİP : n3rsonline'
+			print 'SALDİRİ BASARİLİ ! İNSTA TAKİP : n3rsonline'
 			code=500
 	except urllib2.URLError, e:
 			#print e.reason
